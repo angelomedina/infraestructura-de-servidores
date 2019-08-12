@@ -1,0 +1,26 @@
+{
+  "name": "infraestructura-de-servidores",
+  "version": "1.0.0",
+  "description": "El proyecto consta de la implementacion de una infraestructura de servidores que ejecutan servicios comunmente\r disponibles en un ambiente real de produccion o desarrollo en empresas de TI usando maquinas virtuales.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/angelomedina/infraestructura-de-servidores.git"
+  },
+  "author": "Angelo Guerrero Medina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/angelomedina/infraestructura-de-servidores/issues"
+  },
+  "homepage": "https://gitlab.com/angelomedina/infraestructura-de-servidores#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mssql": "^5.1.0"
+  }
+}
